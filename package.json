@@ -1,0 +1,27 @@
+{
+  "name": "backendcrudrollingvet",
+  "version": "1.0.0",
+  "description": "backend de la pagina rollingvet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonel12345678/ProyectofinalRollingVet..git"
+  },
+  "keywords": [
+    "request",
+    "response",
+    "post",
+    "put",
+    "dalate",
+    "get"
+  ],
+  "author": "Leonel Alderete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonel12345678/ProyectofinalRollingVet./issues"
+  },
+  "homepage": "https://github.com/Leonel12345678/ProyectofinalRollingVet.#readme"
+}
