@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "backend de la pagina rollingvet",
   "main": "index.js",
-  "scripts": {
-    "start": "babel-node src/index.js"
-  },
+  "scripts": { "start": "babel-node src/index.js", 
+    "babel-node": "babel-node --presets=env", 
+    "dev": "nodemon --exec npm run babel-node ./src/index.js" },
+    
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leonel12345678/ProyectofinalRollingVet..git"
@@ -27,6 +28,8 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "express": "^4.17.3"
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
   }
 }
