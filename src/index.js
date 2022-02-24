@@ -2,6 +2,7 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
+import router from './routes/pacientes.routes';
 
 //espress
 const app = express();
@@ -20,10 +21,5 @@ app.use(express.urlencoded({extended:true}));
 
 app.use(express.static(path.join(__dirname,'../public')))
 
-console.log(__dirname)
-console.log()
-
 //ruta prueba
-app.get('/pacientes',(rep,res)=>{
-    res.send('prueba ruta pacientes')
-})
+app.use('/apipacientes', router)
