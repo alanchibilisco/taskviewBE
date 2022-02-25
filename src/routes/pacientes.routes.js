@@ -1,8 +1,8 @@
-import {Router} from 'express';
-import pacientes from '../controllers/pacientes.controllers';
+import { Router } from "express";
+import pacienteCtrl from "../controllers/pacientes.controllers";
 
 const router = Router();
 
-router.route('/pacientes').get(pacientes.todoslosPacientes);
+router.route("/pacientes").get(pacienteCtrl.getPacientes);
 
 export default router;
