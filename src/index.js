@@ -5,6 +5,7 @@ import path from 'path';
 import router from './routes/pacientes.routes';
 import routeTurno from './routes/turnos.routes';
 import routeUser from './routes/users.routes';
+import routeComentario from './routes/comentarios.routes';
 import './database'
 
 //express
@@ -28,3 +29,4 @@ app.use(express.static(path.join(__dirname,'../public')))
 app.use('/apirollingvet', router);
 app.use('/apirollingvet', routeTurno);
 app.use('/apirollingvet', routeUser);
+app.use('/apirollingvet', routeComentario);
