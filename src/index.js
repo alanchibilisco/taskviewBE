@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
 import router from './routes/pacientes.routes';
+import routeTurno from './routes/turnos.routes';
 import './database'
 
 //express
@@ -24,3 +25,4 @@ app.use(express.static(path.join(__dirname,'../public')))
 
 //ruta prueba
 app.use('/apirollingvet', router);
+app.use('/apirollingvet', routeTurno);
