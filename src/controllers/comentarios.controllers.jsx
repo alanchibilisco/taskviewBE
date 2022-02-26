@@ -41,4 +41,19 @@ comentarioCtrl.postComentario = async (req, res) => {
   }
 };
 
+comentarioCtrl.deleteComentario=async (req, res)=>{
+    //res.send("Se borro el comentario");
+    try {
+       await Comentario.findByIdAndDelete(req.params.id);
+       res.status(200).json({
+           mensaje: "Se borro con exito el comentario"
+       });
+    } catch (error) {
+        console.log(error);
+        res.status(404).json({
+            mensaje: "No se pudo borrar el comentario"
+        });
+    }
+};
+
 export default comentarioCtrl;
