@@ -27,7 +27,7 @@ const pacienteSchema=new Schema({
         type: String,
         required: true,
         minlength: 7,
-        maxlength: 10
+        maxlength: 20
     },
 
     nombreMascota:{
