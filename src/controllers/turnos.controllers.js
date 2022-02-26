@@ -52,6 +52,22 @@ turnoCtrl.getTurno=async(req, res)=>{
             mensaje: "No se pudo obtener el turno"
         });
     }
+};
+
+turnoCtrl.putTurno=async(req, res)=>{
+    try {
+        console.log(req.params.id);
+        console.log(req.body);
+        await Turno.findByIdAndUpdate(req.params.id, req.body);
+        res.status(200).json({
+            mensaje: "Se actualizo los datos del turno"
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(404).json({
+            mensaje: "No se pudo actualizar los datos"
+        });
+    }
 }
 
 

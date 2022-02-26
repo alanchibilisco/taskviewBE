@@ -5,5 +5,5 @@ const routeTurno = Router();
 
 routeTurno.route("/turnos").get(turnoCtrl.getTurnos).post(turnoCtrl.postTurno);
 
-routeTurno.route("/turnos/:id").get(turnoCtrl.getTurno);
+routeTurno.route("/turnos/:id").get(turnoCtrl.getTurno).put(turnoCtrl.putTurno);
 export default routeTurno;
