@@ -20,8 +20,7 @@ const pacienteSchema=new Schema({
         type: String,
         required: true,
         maxlength: 100,
-        minlength: 12,
-        unique: true
+        minlength: 12      
     },
 
     telefono:{
