@@ -3,7 +3,7 @@ import { validateTextoEsp } from "../helpers/Validaciones";
 
 const turnoCtrl={};
 
-turnoCtrl.getTurno=async(req, res)=>{
+turnoCtrl.getTurnos=async(req, res)=>{
     //res.send('aqui enviaria la lista de turnos');
     try {
         const listTurnos=await Turno.find();
@@ -40,6 +40,19 @@ turnoCtrl.postTurno=async(req, res)=>{
         });
     }
 };
+
+turnoCtrl.getTurno=async(req, res)=>{
+    try {
+        console.log(req.params.id);
+        const turnoBuscado= await Turno.findById(req.params.id);
+        res.status(200).json(turnoBuscado);
+    } catch (error) {
+        console.log(error);
+        res.status(404).json({
+            mensaje: "No se pudo obtener el turno"
+        });
+    }
+}
 
 
 export default turnoCtrl;

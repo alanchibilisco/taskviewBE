@@ -3,6 +3,7 @@ import turnoCtrl from "../controllers/turnos.controllers";
 
 const routeTurno = Router();
 
-routeTurno.route("/turnos").get(turnoCtrl.getTurno).post(turnoCtrl.postTurno);
+routeTurno.route("/turnos").get(turnoCtrl.getTurnos).post(turnoCtrl.postTurno);
 
+routeTurno.route("/turnos/:id").get(turnoCtrl.getTurno);
 export default routeTurno;
