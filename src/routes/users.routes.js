@@ -1,9 +1,9 @@
 import {Router} from "express";
-import userCtrl from "../controllers/user.controllers";
+import usersCtrl from "../controllers/users.controllers";
 
-const routeUser=Router();
+const routeUsers=Router();
 
-routeUser.route("/user").get(userCtrl.getUser).post(userCtrl.postUser);
+routeUsers.route("/users").get(usersCtrl.getUsers).post(usersCtrl.postUser);
 
 
-export default routeUser;
+export default routeUsers;

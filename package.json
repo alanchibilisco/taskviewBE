@@ -1,7 +1,7 @@
 {
-  "name": "backendcrudrollingvet",
+  "name": "backendmovieapp",
   "version": "1.0.0",
-  "description": "backend de la pagina rollingvet",
+  "description": "backend de la pagina movieapp",
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanchibilisco/RollingVetProjectBE.git"
+    "url": "git+https://github.com/alanchibilisco/MovieAppBE.git"
   },
   "keywords": [
     "request",
@@ -23,9 +23,9 @@
   "author": "Chibilisco Alan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alanchibilisco/RollingVetProjectBE.git"
+    "url": "https://github.com/alanchibilisco/MovieAppBE.git"
   },
-  "homepage": "https://github.com/alanchibilisco/RollingVetProjectBE.git",
+  "homepage": "https://github.com/alanchibilisco/MovieAppBE.git",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",

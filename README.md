@@ -1,8 +1,8 @@
 # ***ROLLING CODE SCHOOL - PROYECTO FINAL***
 
-## **Nombre del proyecto: "RollingVet-Backend"**
+## **Nombre del proyecto: "MovieApp-Backend"**
 
-- Proyecto de Backend para el sitio de RollinVet, en el cual se almacenan todos los datos del mismo. El mismo consta de 4 colecciones (pacientes, turnos, comentarios, user).
+- Proyecto de Backend para el sitio de MovieApp.
 
 
 ## **Comandos**
@@ -25,4 +25,4 @@ npm run dev
 
 # **Desarrollo**
 
-- Chibilisco Alan Antonio y otros.
+- Chibilisco Alan Antonio
