@@ -1,5 +1,3 @@
-# ***ROLLING CODE SCHOOL - PROYECTO FINAL***
-
 ## **Nombre del proyecto: "MovieApp-Backend"**
 
 - Proyecto de Backend para el sitio de MovieApp.
@@ -10,9 +8,6 @@
 - Cuando se clone este repositorio se deben ejecutar los siguientes comandos:
 # ****Para instalar las dependecias****
 npm i
-# ****Para ejecutar el backend****
-- Primero cambiar a la rama dev y luego hacer el siguiente comando:
-npm run dev
 
 # **Dependencias/Librerias**
 
