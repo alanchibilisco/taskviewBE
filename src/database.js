@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
- //const url='mongodb://localhost:27017/BBDDMA';
-const url='mongodb+srv://movieapp:fxsfkQvSxDYDsgUH@cluster0.4jhlh.mongodb.net/BdMAma';
+ const url='mongodb://localhost:27017/tsvw';
+// const url='mongodb+srv://movieapp:fxsfkQvSxDYDsgUH@cluster0.4jhlh.mongodb.net/BdMAma';
 
 mongoose.connect(url);
 

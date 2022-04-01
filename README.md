@@ -7,8 +7,9 @@
 
 - Cuando se clone este repositorio se deben ejecutar los siguientes comandos:
 # ****Para instalar las dependecias****
-npm i
-
+`npm i`
+# ****Para ejecutar el Back End****
+`npm run dev`
 # **Dependencias/Librerias**
 
 - babel.cli: 6.26.0
