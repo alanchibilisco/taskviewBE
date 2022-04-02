@@ -1,6 +1,6 @@
-## **Nombre del proyecto: "MovieApp-Backend"**
+## **Nombre del proyecto: "Task View"**
 
-- Proyecto de Backend para el sitio de MovieApp.
+- Proyecto de Backend para task view.
 
 
 ## **Comandos**
