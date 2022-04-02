@@ -9,7 +9,7 @@
 # ****Para instalar las dependecias****
 `npm i`
 # ****Para ejecutar el Back End****
-`npm run dev`
+`npm run dev` "se ejecuta en el puerto 3004"
 # **Dependencias/Librerias**
 
 - babel.cli: 6.26.0
